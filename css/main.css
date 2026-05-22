@@ -931,6 +931,51 @@ button, input { font-family: inherit; }
         transform: translateY(calc(60vh - 80px)) !important;
     }
 
+    /* Map Overlays for Mobile */
+    .map-overlay-center { 
+        top: 72px !important; 
+        width: 90% !important; 
+        left: 50% !important; 
+        transform: translateX(-50%) !important; 
+    }
+    .map-overlay-bottom-right { 
+        bottom: auto !important; 
+        top: 12px !important; 
+        right: 12px !important; 
+        display: none !important; 
+    }
+    
+    .student-map-overlay-bottom {
+        bottom: 12px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 95% !important;
+        max-width: 340px !important;
+    }
+    
+    .next-arrival-card { 
+        width: 140px !important; 
+        padding: 12px !important; 
+        border-radius: var(--radius-lg) !important; 
+    }
+    .next-arrival-card h2 { font-size: 24px !important; }
+    .next-arrival-card h2 span { font-size: 12px !important; }
+    .next-arrival-card .label { font-size: 8px !important; }
+    
+    /* Stats Grid */
+    .stats-grid { grid-template-columns: 1fr !important; }
+    
+    /* Admin Specific Fixes */
+    .topbar-right .input-group { width: 100% !important; max-width: 150px !important; }
+    .topbar-right .input-group input { font-size: 11px !important; padding-left: 32px !important; }
+    .topbar-right .input-group svg { left: 8px !important; width: 14px !important; height: 14px !important; }
+    
+    .dash-cols > div[style*="grid-template-columns"] { grid-template-columns: 1fr !important; }
+    
+    /* Inputs Fixes */
+    .input-icon.right { display: none !important; } 
+    .form-input { padding-right: 16px !important; }
+
     body #page-driver .ops-toggle {
         display: none !important; /* Managed by touch/swipe or visible header */
     }

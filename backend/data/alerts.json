@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": 1778237074972,
+    "busId": "V-101",
+    "driverName": "driver",
+    "contactDetails": "7795868592",
+    "message": "EMERGENCY: Driver requested immediate assistance!",
+    "location": {
+      "lat": 15.821250222270471,
+      "lng": 74.49077396673026
+    },
+    "timestamp": "2026-05-08T10:44:34.972Z",
+    "status": "active"
+  }
+]

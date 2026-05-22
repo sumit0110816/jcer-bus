@@ -55,16 +55,15 @@
     "capacity": 50,
     "currentOccupancy": 0,
     "status": "idle",
-    "assignedDriver": "",
     "driverId": "",
     "lastLocation": {
-      "lat": 15.8629,
-      "lng": 74.6111,
-      "speed": 0,
-      "updatedAt": null
+      "lat": 15.819042983024012,
+      "lng": 74.49721645113907,
+      "speed": 30,
+      "updatedAt": "2026-05-08T10:30:29.934Z"
     },
-    "driverPhone": "",
-    "isLive": false,
+    "driverPhone": "7795868592",
+    "isLive": true,
     "assignedRoute": ""
   },
   {
